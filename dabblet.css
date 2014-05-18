@@ -1,3 +1,19 @@
 /**
  * Proof-of-Concept for Project Stage Banner - http://dabblet.com/gist/a2ae67caa3863a299ba0
  */
+
+.stage-banner {}
+
+.stage-banner .current-stage-container {}
+
+.stage-banner .stage-block {}
+
+.stage-banner .stage-1 {}
+.stage-banner .stage-2 {}
+.stage-banner .stage-3 {}
+.stage-banner .stage-4 {}
+.stage-banner .stage-5 {}
+
+.stage-banner .stage-list {}
+
+/*EOF*/

@@ -2,11 +2,6 @@
  * Proof-of-Concept for Project Stage Banner - http://dabblet.com/gist/a2ae67caa3863a299ba0
  */
 
-img {
-     display: block;
-     margin: 0.5em;
-}
-
 .stage-banner {}
 
 .stage-banner .current-stage-container {

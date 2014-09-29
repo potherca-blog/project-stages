@@ -1,104 +1,106 @@
-<h2>Introduction</h2>
-<p>
-	As any active software developer, I tend to have a lot of projects laying about. With the advent of Github all of these projects now live in the public eye.
-</p>
-<p>
-	For me, as the author, it isn't dificult to keep track of which project is in which state of production. For the casual visitor of my project pages this is a different matter.
-</p>
-<p>
-	To help passers-by to identify how solid a certain project is at-a-glance, I felt it would be prudent to offer them a "Badge". Some uniform way of knowing what to expect of the code in the repository without even having to look at it.
-</p>
-
-
-<h2>Project Stages</h2>
-<p>
-	Before a visitor can be alerted of which stage of production a project is in, these stages need to be defined. After some general research on what are the most common terms used elsewhere I came up with the following list:
-</p>
-<div class="stage-banner">
-	<ol class="current-stage-container">
-		<li class="stage-block stage-1">C</li>
-		<li class="stage-block stage-2">R</li>
-		<li class="stage-block stage-3">E</li>
-		<li class="stage-block stage-4">D</li>
-		<li class="stage-block stage-5">.</li>
-		<li class="stage-block stage-6">!</li>
-		<li class="stage-block stage-7">?</li>
-	</ol>
-
-	<p class="stage-description">
-		This project is in its 
-		<span class="stage-list">
-			<b class="stage-1">Concept</b>
-			<b class="stage-2">Research</b>
-			<b class="stage-3">Experiment</b>
-			<b class="stage-4">Development</b>
-			<b class="stage-5">Production Ready</b>
-			<b class="stage-6">Deprecated</b>
-			<b class="stage-7">Unknown</b>
-		</span>
-		stage
+<h1>Badges for Project Stages</h1>
+<article>
+	<h2>Introduction</h2>
+	<p>
+		As any active software developer, I tend to have a lot of projects laying about. With the advent of Github all of these projects now live in the public eye.
 	</p>
-</div>
-
-<h2>The Badges</h2>
-<p>
-	It would be nice to be able to display these stages in an uniform manner across projects. Preferably in a way that mirrors the look and feel of other badge providers.
-</p>
-<p>
-	This can quite easily be achieved using the excellent service provided by <a href=" http://shields.io/">Shields.io</a>
-</p>
-<p>
-	Below you can find the full set of badges I use and the HTML code needed to display them:
-</p>
-
-<table>
-<thead>
-	<tr>
-		<th>Project Stage</th>
-		<th>Badge</th>
-		<th>HTML Source</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td>Concept</td>
-		<td>
-			<img src="http://img.shields.io/badge/Project%20Stage-Concept-red.svg" />
-		</td>
-		<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Concept-red.svg" /&gt;</code></td>
-	</tr>	
-	<tr>
-		<td>Research</td>
-		<td><img src="http://img.shields.io/badge/Project%20Stage-Research-orange.svg" /></td>
-		<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Research-orange.svg" /&gt;</code></td>
-	</tr>
-	<tr>
-		<td>Experimental</td>
-		<td><img src="http://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg" /></td>
-		<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg" /&gt;</code></td>
-	</tr>
-	<tr>
-		<td>Development</td>
-		<td><img src="http://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" /></td>
-		<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" /&gt;</code></td>
-	</tr>
-	<tr>
-		<td>Production Ready</td>
-		<td><img src="http://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg" /></td>
-		<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg" /&gt;</code></td>
-	</tr>
-	<tr>
-		<td>Deprecated</td>
-		<td><img src="http://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg" /></td>
-		<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg" /&gt;</code></td>
-	</tr>
-	<tr>
-		<td>Unknow</td>
-		<td colspan="2"><i>no image required</i></td>
-	</tr>
-</tbody>
-</table>
-
+	<p>
+		For me, as the author, it isn't dificult to keep track of which project is in which state of production. For the casual visitor of my project pages this is a different matter.
+	</p>
+	<p>
+		To help passers-by to identify how solid a certain project is at-a-glance, I felt it would be prudent to offer them a "Badge". Some uniform way of knowing what to expect of the code in the repository without even having to look at it.
+	</p>
+	
+	
+	<h2>Project Stages</h2>
+	<p>
+		Before a visitor can be alerted of which stage of production a project is in, these stages need to be defined. After some general research on what are the most common terms used elsewhere I came up with the following list:
+	</p>
+	<div class="stage-banner">
+		<ol class="current-stage-container">
+			<li class="stage-block stage-1">C</li>
+			<li class="stage-block stage-2">R</li>
+			<li class="stage-block stage-3">E</li>
+			<li class="stage-block stage-4">D</li>
+			<li class="stage-block stage-5">.</li>
+			<li class="stage-block stage-6">!</li>
+			<li class="stage-block stage-7">?</li>
+		</ol>
+	
+		<p class="stage-description">
+			This project is in its 
+			<span class="stage-list">
+				<b class="stage-1">Concept</b>
+				<b class="stage-2">Research</b>
+				<b class="stage-3">Experiment</b>
+				<b class="stage-4">Development</b>
+				<b class="stage-5">Production Ready</b>
+				<b class="stage-6">Deprecated</b>
+				<b class="stage-7">Unknown</b>
+			</span>
+			stage
+		</p>
+	</div>
+	
+	<h2>The Badges</h2>
+	<p>
+		It would be nice to be able to display these stages in an uniform manner across projects. Preferably in a way that mirrors the look and feel of other badge providers.
+	</p>
+	<p>
+		This can quite easily be achieved using the excellent service provided by <a href=" http://shields.io/">Shields.io</a>
+	</p>
+	<p>
+		Below you can find the full set of badges I use and the HTML code needed to display them:
+	</p>
+	
+	<table>
+	<thead>
+		<tr>
+			<th>Project Stage</th>
+			<th>Badge</th>
+			<th>HTML Source</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Concept</td>
+			<td>
+				<img src="http://img.shields.io/badge/Project%20Stage-Concept-red.svg" />
+			</td>
+			<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Concept-red.svg" /&gt;</code></td>
+		</tr>	
+		<tr>
+			<td>Research</td>
+			<td><img src="http://img.shields.io/badge/Project%20Stage-Research-orange.svg" /></td>
+			<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Research-orange.svg" /&gt;</code></td>
+		</tr>
+		<tr>
+			<td>Experimental</td>
+			<td><img src="http://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg" /></td>
+			<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg" /&gt;</code></td>
+		</tr>
+		<tr>
+			<td>Development</td>
+			<td><img src="http://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" /></td>
+			<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" /&gt;</code></td>
+		</tr>
+		<tr>
+			<td>Production Ready</td>
+			<td><img src="http://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg" /></td>
+			<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg" /&gt;</code></td>
+		</tr>
+		<tr>
+			<td>Deprecated</td>
+			<td><img src="http://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg" /></td>
+			<td><code>&lt;img src="http://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg" /&gt;</code></td>
+		</tr>
+		<tr>
+			<td>Unknow</td>
+			<td colspan="2"><i>no image required</i></td>
+		</tr>
+	</tbody>
+	</table>
+</article>
 <footer class="created-by">
 	<p>
 		Any questions or comments can be made on the page of this <a 

@@ -5,9 +5,18 @@
  */
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono);
+@import url(http://pother.ca/CssBase/css/base.css);
+@import url(http://pother.ca/CssBase/css/created-by-potherca.css);
 
 body {
 	font-family:'Droid Sans', Arial, sans-serif;
+	max-width: 45em;
+}
+
+td[colspan="2"] {
+	background: #CCD;
+	color: white;
+	text-indent: 2em;
 }
 
 .stage-banner .current-stage-container {
@@ -15,7 +24,7 @@ body {
 	border: 0.1em solid;
 	display: block;
 	height: 4em;
-	width: 20.25em;
+	width: 28.40em;
 	padding: 0;
 }
 
@@ -39,11 +48,14 @@ body {
 	border-right: none;
 } 
 
+.stage-list {color:white; border-color: #000;}
 .stage-banner .stage-1 {background-color: #e05d44;}
 .stage-banner .stage-2 {background-color: #fe7d37;}
 .stage-banner .stage-3 {background-color: #dfb317;}
 .stage-banner .stage-4 {background-color: #a4a61d;}
 .stage-banner .stage-5 {background-color: #4c1;}
+.stage-banner .stage-6 {background-color: #F00;}
+.stage-banner .stage-7 {background-color: #000;}
 
 /*
   "brightgreen":    { "colorB": "#4c1" },

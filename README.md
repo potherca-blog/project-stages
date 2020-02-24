@@ -28,12 +28,12 @@ It would be nice to be able to display these stages in an uniform manner across 
 
 This can quite easily be achieved using the excellent service provided by <a href=" http://shields.io/">Shields.io</a>:
 
-1. [![Project Stage Badge: ][Project Stage Page]
-2. [![Project Stage Badge: Research][Project Stage Page]
-3. [![Project Stage Badge: Experimental][Project Stage Page]
-4. [![Project Stage Badge: Development][Project Stage Page]
-5. [![Project Stage Badge: Production Ready][Project Stage Page]
-6. [![Project Stage Badge: DEPRECATED][Project Stage Page]
+1. [![Project Stage Badge: Concept][Project Stage Badge: Concept]][Project Stage Page]
+2. [![Project Stage Badge: Research][Project Stage Badge: Research]][Project Stage Page]
+3. [![Project Stage Badge: Experimental][Project Stage Badge: Experimental]][Project Stage Page]
+4. [![Project Stage Badge: Development][Project Stage Badge: Development]][Project Stage Page]
+5. [![Project Stage Badge: Production Ready][Project Stage Badge: Production Ready]][Project Stage Page]
+6. [![Project Stage Badge: DEPRECATED][Project Stage Badge: DEPRECATED]][Project Stage Page]
 
 ---
 

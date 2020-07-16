@@ -5,9 +5,9 @@
  * @see: http://bl.ocks.org/potherca/raw/a2ae67caa3863a299ba0
  */
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono);
-@import url(http://pother.ca/CssBase/css/base.css);
-@import url(http://pother.ca/CssBase/css/created-by-potherca.css);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono);
+@import url(https://pother.ca/CssBase/css/base.css);
+@import url(https://pother.ca/CssBase/css/created-by-potherca.css);
 
 body {
 	font-family:'Droid Sans', Arial, sans-serif;

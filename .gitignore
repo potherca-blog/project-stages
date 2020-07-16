@@ -1,0 +1,6 @@
+# Folders to ignore
+_site/
+.jekyll-cache/
+
+# Files to ignore
+Gemfile.lock

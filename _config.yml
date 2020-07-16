@@ -1,0 +1,34 @@
+baseurl: /project-stages
+permalink: pretty
+remote_theme: potherca/extend-the-docs@theme
+
+plugins:
+  - github-pages
+
+# Extend the Docs (Fork) settings
+nav:
+  cross_repository:
+    exclude:
+      - covid19-netherlands-chart
+      - cyclomatic-and-cognitive-complextity
+      - git-crypt-example
+      - laravel-training-shop
+      - nocode
+      - potherca-blog.github.io
+      - pull-requests-on-github-in-2015
+      - TLDR
+  exclude:
+    - "/"
+  favicon_ico : /favicon.ico
+  footer: true
+  include_posts:
+    sort_by_date: true
+  main_title:
+    link: '/'
+    text: Blog Home
+  recurse: true
+
+# Just the Docs (Source) settings
+aux_links:
+  "Potherca on GitHub":
+    - "https://github.com/Potherca"

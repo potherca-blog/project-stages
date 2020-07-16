@@ -48,12 +48,12 @@ providers.
 This can quite easily be achieved using the excellent service provided by
 [Shields.io](https://shields.io/):
 
-1. [![Project Stage Badge: Concept][Project Stage Badge: Concept]][Project Stage Page]
-2. [![Project Stage Badge: Research][Project Stage Badge: Research]][Project Stage Page]
-3. [![Project Stage Badge: Experimental][Project Stage Badge: Experimental]][Project Stage Page]
-4. [![Project Stage Badge: Development][Project Stage Badge: Development]][Project Stage Page]
-5. [![Project Stage Badge: Production Ready][Project Stage Badge: Production Ready]][Project Stage Page]
-6. [![Project Stage Badge: DEPRECATED][Project Stage Badge: DEPRECATED]][Project Stage Page]
+1. [![Project stage: Concept][project-stage-badge: Concept]][project-stage-page]
+2. [![Project stage: Research][project-stage-badge: Research]][project-stage-page]
+3. [![Project stage: Experimental][project-stage-badge: Experimental]][project-stage-page]
+4. [![Project stage: Development][project-stage-badge: Development]][project-stage-page]
+5. [![Project stage: Production Ready][project-stage-badge: Production Ready]][project-stage-page]
+6. [![Project stage: DEPRECATED][project-stage-badge: DEPRECATED]][project-stage-page]
 7. <i>no image required</i>
 
 ## Usage
@@ -68,16 +68,16 @@ The link for all badges is the same, pointing to this page.
 #### HTML
 
 ```
-<img src="https://img.shields.io/badge/Project%20Stage-Concept-red.svg" />
+<img alt="Project stage: Concept" src="https://img.shields.io/badge/Project%20Stage-Concept-red.svg" />
 ```
 
 #### Markdown
 
 ```
-[![Project Stage Badge: Concept][Project Stage Page]
+[![Project stage: Concept][project-stage-badge: Concept]][project-stage-page]
 
-[Project Stage Badge: Concept]: https://img.shields.io/badge/Project%20Stage-Concept-red.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
+[project-stage-badge: Concept]: https://img.shields.io/badge/Project%20Stage-Concept-red.svg
+[project-stage-page]: https://blog.pother.ca/project-stages/
 ```
 
 ### Research
@@ -85,16 +85,16 @@ The link for all badges is the same, pointing to this page.
 #### HTML
 
 ```
-<img src="https://img.shields.io/badge/Project%20Stage-Research-orange.svg" />
+<img alt="Project stage: Research" src="https://img.shields.io/badge/Project%20Stage-Research-orange.svg" />
 ```
 
 #### Markdown
 
 ```
-[![Project Stage Badge: Research][Project Stage Page]
+[![Project stage: Research][project-stage-badge: Research]][project-stage-page]
 
-[Project Stage Badge: Research]: https://img.shields.io/badge/Project%20Stage-Research-orange.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
+[project-stage-badge: Research]: https://img.shields.io/badge/Project%20Stage-Research-orange.svg
+[project-stage-page]: https://blog.pother.ca/project-stages/
 ```
 
 ### Experimental
@@ -102,16 +102,16 @@ The link for all badges is the same, pointing to this page.
 #### HTML
 
 ```
-<img src="https://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg" />
+<img alt="Project stage: Experimental" src="https://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg" />
 ```
 
 #### Markdown
 
 ```
-[![Project Stage Badge: Experimental][Project Stage Page]
+[![Project stage: Experimental][project-stage-badge: Experimental]][project-stage-page]
 
-[Project Stage Badge: Experimental]: https://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
+[project-stage-badge: Experimental]: https://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg
+[project-stage-page]: https://blog.pother.ca/project-stages/
 ```
 
 ### Development
@@ -119,16 +119,16 @@ The link for all badges is the same, pointing to this page.
 #### HTML
 
 ```
-<img src="https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" />
+<img alt="Project stage: Development" src="https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" />
 ```
 
 #### Markdown
 
 ```
-[![Project Stage Badge: Development][Project Stage Page]
+[![Project stage: Development][project-stage-badge: Development]][project-stage-page]
 
-[Project Stage Badge: Development]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
+[project-stage-badge: Development]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
+[project-stage-page]: https://blog.pother.ca/project-stages/
 ```
 
 ### Production Ready
@@ -136,16 +136,16 @@ The link for all badges is the same, pointing to this page.
 #### HTML
 
 ```
-<img src="https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg" />
+<img alt="Project stage: Production Ready" src="https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg" />
 ```
 
 #### Markdown
 
 ```
-[![Project Stage Badge: Production Ready][Project Stage Page]
+[![Project stage: Production Ready][project-stage-badge: Production Ready]][project-stage-page]
 
-[Project Stage Badge: Production Ready]: https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
+[project-stage-badge: Production Ready]: https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg
+[project-stage-page]: https://blog.pother.ca/project-stages/
 ```
 
 ### DEPRECATED
@@ -153,20 +153,17 @@ The link for all badges is the same, pointing to this page.
 #### HTML
 
 ```
-<img src="https://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg" />
+<img alt="Project stage: DEPRECATED" src="https://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg" />
 ```
 
 #### Markdown
 
 ```
-[![Project Stage Badge: DEPRECATED][Project Stage Page]
+[![Project stage: DEPRECATED][project-stage-badge: DEPRECATED]][project-stage-page]
 
-[Project Stage Badge: DEPRECATED]: https://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
+[project-stage-badge: DEPRECATED]: https://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
+[project-stage-page]: https://blog.pother.ca/project-stages/
 ```
-
-
-- - -
 
 Any questions or feedback can be Tweeted to [@potherca](https://twitter.com/intent/tweet?screen_name=potherca)
 
@@ -176,15 +173,10 @@ Any questions or feedback can be Tweeted to [@potherca](https://twitter.com/inte
   &mdash; Created by <a href="https://pother.ca/" class="potherca">Potherca</a>
 </p>
 
-[Project Stage Badge: Concept]: https://img.shields.io/badge/Project%20Stage-Concept-red.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
-[Project Stage Badge: Research]: https://img.shields.io/badge/Project%20Stage-Research-orange.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
-[Project Stage Badge: Experimental]: https://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
-[Project Stage Badge: Development]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
-[Project Stage Badge: Production Ready]: https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
-[Project Stage Badge: DEPRECATED]: https://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
-[Project Stage Page]: https://blog.pother.ca/project-stages/
+[project-stage-badge: Concept]: https://img.shields.io/badge/Project%20Stage-Concept-red.svg
+[project-stage-badge: DEPRECATED]: https://img.shields.io/badge/Project%20Stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
+[project-stage-badge: Development]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
+[project-stage-badge: Experimental]: https://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg
+[project-stage-badge: Production Ready]: https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg
+[project-stage-badge: Research]: https://img.shields.io/badge/Project%20Stage-Research-orange.svg
+[project-stage-page]: https://blog.pother.ca/project-stages/

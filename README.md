@@ -30,7 +30,7 @@ most common terms used elsewhere I came up with the following list:
 This project is in its
 
 1. **C**oncept
-2. **R**research
+2. **R**esearch
 3. **E**xperiment
 4. **D**evelopment
 5. **Production Ready**

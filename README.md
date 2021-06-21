@@ -168,7 +168,7 @@ The link for all badges is the same, pointing to this page.
 Any questions or feedback can be Tweeted to [@potherca](https://twitter.com/intent/tweet?screen_name=potherca)
 
 <p class="created-by">
-  Source of this page available as a <a href="https://gist.github.com/potherca/a2ae67caa3863a299ba0">Gist</a>
+  The source of this page is <a href="https://github.com/potherca-blog/project-stages/">available on GitHub</a>
   under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
   &mdash; Created by <a href="https://pother.ca/" class="potherca">Potherca</a>
 </p>

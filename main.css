@@ -87,17 +87,6 @@ td[colspan="2"] {
 .markdown-body ol:first-of-type li:nth-of-type(7),
 .markdown-body ul:first-of-type li:nth-of-type(7) {background-color: #000;}
 
-.markdown-body > p:nth-child(9) {
-	position: relative;
-	top: 11em;
-}
-
-.markdown-body > p:nth-child(11) {
-	bottom: 8em;
-	left: 22em;
-	position: relative;
-}
-
 .markdown-body ol:first-of-type {
 	border-bottom: 0.1em solid;
 	display: inline-block;

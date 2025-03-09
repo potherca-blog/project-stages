@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./main.css">
+
 # Badges for Project Stages
 
 ## Introduction
